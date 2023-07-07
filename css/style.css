@@ -160,29 +160,16 @@ body {
 }
 
 /* Portfolio */
+.portfolio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
 .myideas {
-  position: relative;
-  width: 50%;
-}
-
-.myideas img {
-  width: 100%;
-  height: auto;
-}
-
-.portfolio-inner {
-  position: absolute;
-  width: 300px;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-}
-
-.portfolio-inner .btn {
-  position: absolute;
-  top: 100%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  -webkit-box-ordinal-group: 4;
+      -ms-flex-order: 3;
+          order: 3;
 }/*# sourceMappingURL=style.css.map */

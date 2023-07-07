@@ -135,7 +135,7 @@ body {
 	width: 50%;
 	height: 100%;
 	overflow: hidden;
-    z-index: 1;
+	z-index: 1;
 }
 
 .skill-image img {
@@ -162,31 +162,28 @@ body {
 	transform: scale(1.5);
 }
 
-
 /* Portfolio */
 
+.portfolio {
+	display: flex;
+	flex-wrap: wrap;
+}
 
 .myideas {
-    position: relative;
-    width: 50%;
+	order: 3;
 }
 
-.myideas img {
-    width: 100%;
-    height: auto;
-}
+// .portfolio-inner {
+// 	position: absolute;
+// 	width: 300px;
+// 	top: 50%;
+// 	left: 50%;
+// 	transform: translate(-50%, -50%);
+// }
 
-.portfolio-inner {
-	position: absolute;
-	width: 300px;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-}
-
-.portfolio-inner .btn {
-    position: absolute;
-    top: 100%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-}
+// .portfolio-inner .btn {
+// 	position: absolute;
+// 	top: 100%;
+// 	left: 50%;
+// 	transform: translate(-50%, -50%);
+// }
